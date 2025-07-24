@@ -1,7 +1,45 @@
-<html>
-<head><title>301 Moved Permanently</title></head>
-<body>
-<center><h1>301 Moved Permanently</h1></center>
-<hr><center>nginx</center>
-</body>
-</html>
+:root.dark {
+  --primary-color: #10cfc9;
+}
+
+.centered-header {
+  position: default;
+  transform: default;
+}
+
+.logo {
+  height: 1em;
+  border: 0;
+}
+
+footer {
+  display: flex;
+  border-top: 0.2em dotted #10cfc9;
+  margin-top: 2em;
+  padding: 1em;
+}
+
+.footer {
+  display: flex;
+  padding: 0 1em;
+}
+
+.videowrapper {
+  border: 3px solid #ececec;
+  max-width: 480px;
+  margin: 0px auto;
+}
+
+.videowrapper>div {
+  position: relative;
+  padding-bottom: 75%;
+  height: 0px;
+}
+
+.videowrapper iframe {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 100%;
+}

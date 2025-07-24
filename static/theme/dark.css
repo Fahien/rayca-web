@@ -1,7 +1,1 @@
-<html>
-<head><title>301 Moved Permanently</title></head>
-<body>
-<center><h1>301 Moved Permanently</h1></center>
-<hr><center>nginx</center>
-</body>
-</html>
+:root.dark{--text-0: #f0f0f0;--text-1: #ababab;--bg-0: #121212;--bg-1: #1f1f1f;--bg-2: #383838;--border-color: var(--bg-2);--primary-color: #ef5350;--hover-color: white}:root.dark .social>img{filter:invert(1)}
